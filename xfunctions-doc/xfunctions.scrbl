@@ -1,4 +1,4 @@
-#lang scribble/manual
+n#lang scribble/manual
 
 @require[scribble/example
          racket/sandbox]
@@ -7,7 +7,7 @@
                     racket/date
                     racket/function
                     racket/generator)]
-@require[(for-label "main.rkt")]
+@require[(for-label xfunctions)]
 
 
 @(define (make-xfunctions-eval)
@@ -17,7 +17,7 @@
      (make-evaluator 'racket/base
                      #:requires '(racket/list
                                   racket/function
-                                  "main.rkt"))))
+                                  xfunctions))))
 
 @defmodule[xfunctions]
 
