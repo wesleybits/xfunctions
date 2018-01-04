@@ -5,4 +5,4 @@
 (define collection 'use-pkg-name)
 (define deps
   '(("xfunctions-lib")
-    ("xfunction-doc")))
+    ("xfunctions-doc")))
