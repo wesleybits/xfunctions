@@ -4,5 +4,7 @@
 (define version "0.1")
 (define collection 'use-pkg-name)
 (define deps
-  '(("xfunctions-lib")
+  '(("base")
+    ("racket")
+    ("xfunctions-lib")
     ("xfunctions-doc")))
